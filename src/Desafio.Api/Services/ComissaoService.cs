@@ -17,9 +17,7 @@ namespace Desafio.Api.Services
                     grupo.Sum(venda => CalcularComissaoVenda(venda.Valor)),
                     2,
                     MidpointRounding.AwayFromZero)
-                
- 
-                // TotalComissao = grupo.Sum(venda => CalcularComissaoVenda(venda.Valor))
+           
             })
             .ToList();
 

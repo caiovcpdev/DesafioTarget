@@ -54,9 +54,9 @@ namespace Desafio.Api.Services
 
             var produto = _produtos.FirstOrDefault(produto => produto.CodigoProduto == request.CodigoProduto);
 
-            if (produto == null)
+            if (produto is null)
             {
-                throw new ArgumentException("Produto não encontrado.");
+                throw new KeyNotFoundException("Produto não encontrado.");
             }   
 
             if (request.Tipo == TipoMovimentacao.Saida && request.Quantidade > produto.Estoque)

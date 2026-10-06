@@ -30,11 +30,11 @@ namespace Desafio.Api.Controllers
         ///     {
         ///         "vendas": [
         ///             {
-        ///                 "vendedor": "João Silva",
+        ///                 "vendedor": "Caio Vinicius",
         ///                 "valor": 1200.50
         ///             },
         ///             {
-        ///                 "vendedor": "Maria Souza",
+        ///                 "vendedor": "Bruno Vinicius",
         ///                 "valor": 450.00
         ///             }
         ///         ]
